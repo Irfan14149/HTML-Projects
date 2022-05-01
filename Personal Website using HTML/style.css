@@ -1,0 +1,17 @@
+/* * {
+    padding: o;
+    margin: 0;
+} */
+
+.top {
+    display: flex;
+}
+
+img {
+    height: 254px;
+    width: 254px;
+}
+
+.info {
+    margin: 62px;
+}
