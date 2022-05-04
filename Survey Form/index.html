@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <form>
+        <div class="header container">
+            <h1>Employee Interests Survey Form</h1>
+        </div>
+        <div class="name container">
+            <label for="name">Enter Your Name:</label>
+            <input type="text" name="" id="name" />
+        </div>
+        <div class="deptt container">
+            <label for="dept">Enter Your Department:</label>
+            <input type="text" name="" id="dept" />
+        </div>
+        <div class="yourself container">
+            <label for="story">Tell us little about yourself</label>
+            <textarea id="story" name="story" rows="5" cols="33">
+            </textarea>
+        </div>
+        <div class="exer container">
+            <label for="">Do you exercise at home?</label>
+            <input type="radio" id="yes" name="exceri">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="exceri">
+            <label for="no">No</label>
+        </div>
+        <div class="container">
+            <label for="heading">What do you like to read about your favorite topics?</label>
+            <input type="checkbox" id="books" />
+            <label for="books">Books</label>
+            <input type="checkbox" id="online" />
+            <label for="online">Online Resources</label>
+            <input type="checkbox" id="apps" />
+            <label for="apps">Phone apps</label>
+            <input type="checkbox" id="mag" />
+            <label for="mag">Magazines</label>
+        </div>
+        <div class="movies container">
+            <label for="movie">What genre of movies do you like?</label>
+            <select id="movie">
+                <option value="comedy">Comedy</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+        </div>
+        <div class="btn container">
+            <button>Submit Form</button>
+        </div>
+    </form>
+</body>
+
+</html>
